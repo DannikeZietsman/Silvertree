@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Game Store</h1>
+    <p>Find the hottest deals for the hottest games</p>
+
+    <section class="filter-bar">
+        <div class="filter">
+            <label for="priceFilter">Maximum price:</label>
+            <input type="number" id="priceFilter" placeholder="Enter price">
+        </div>
+
+        <div class="filter">
+            <label for="saleFilter">On sale only:</label>
+            <input type="checkbox" id="saleFilter">
+        </div>
+
+        <button id="resetFilters">Reset Filters</button>
+    </section>
+
+    <main>
+        <h2>Available games</h2>
+
+        <div id="gameGrid" class="game-grid">
+
+        </div>
+    </main>
+    <script src="PartA.js"></script>
+</body>
+</html>
